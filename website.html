@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<head>
-<form action="">
-    <div class="input-field">
-      <input type="text" id="name" required />
-      <label for="name">Your name:</label>
-    </div>
-  </form>
-</head>
-<br> 
-<br> 
-<body> 
-    <div class="form">
-    <input type="text" id="email"
-    class="form__input" autocomplete="off">
-    <label for="email" class= "form__label">Email</label>
-    </div>
-    </body> 
-<p1> still dont know what im doing lol </p1>
+<!-- This is a comment tag and it will not be displayed in the browser -->
+<!-- You need to specify this html element -->
+<html>
+	<head>
+		<!-- This title tag will display in the browser tab -->
+		<!-- Readmore: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title -->
+		<title>Testing HTML</title>
+	</head>
+	<body>
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+		<form action="">
+			<div class="input-field">
+				<label for="name">Your name:</label>
+				<input type="text" id="name" required />
+			</div>
+		</form>
+
+		<br />
+		<br />
+
+		<form class="form">
+			<label for="email" class="form__label">Email</label>
+			<input type="text" id="email" class="form__input" autocomplete="off" />
+		</form>
+	</body>
+</html>
